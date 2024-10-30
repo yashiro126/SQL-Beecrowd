@@ -1,1 +1,3 @@
-SELECT name, street FROM customers WHERE city='Porto Alegre';
+SELECT name
+FROM customers
+WHERE state = 'RS';
